@@ -5,9 +5,6 @@ import javax.persistence.Embeddable;
 @Embeddable
 public class PhoneNumber {
 
-//	@Id
-//	@GeneratedValue(strategy=GenerationType.AUTO)
-//	private Long id;
 	private String number;
 	private String type;
 	protected PhoneNumber() {}
